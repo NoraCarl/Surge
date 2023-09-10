@@ -1,0 +1,68 @@
+#!name=SimpleSearch
+#!desc= SimpleSearch
+
+[URL Rewrite]
+
+# ghs   (GitHub)
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+
+# Google Search 豆瓣
+^https:\/\/duckduckgo.com\/\?q=douban\+([^&]+).+ https://www.google.com/search?q=site\:douban.com\+$1 302
+
+# Google Search StackOverflow
+^https:\/\/duckduckgo.com\/\?q=stackoverflow\+([^&]+).+ https://www.google.com/search?q=site\:stackoverflow.com\+$1 302
+
+# Google Search 知乎
+^https:\/\/duckduckgo.com\/\?q=zhihu\+([^&]+).+ https://www.google.com/search?q=site\:zhihu.com\+$1 302
+
+# Google Search 微博
+^https:\/\/duckduckgo.com\/\?q=weibo\+([^&]+).+ https://www.google.com/search?q=site\:weibo.com\+$1 302
+
+# Google Search Reddit
+^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ https://www.google.com/search?q=site\:reddit.com\+$1 302
+
+# Google Search Twitter
+^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+ https://www.google.com/search?q=site\:twitter.com\+$1 302
+
+# Google Search 少数派
+^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ https://www.google.com/search?q=site\:sspai.com\+$1 302
+
+# Google Search CSDN
+^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://www.google.com/search?q=site\:csdn.net\+$1 302
+
+# Tips: 翻译
+# > Google Auto to 中文
+^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
+
+# > Google Auto to English
+^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+
+# Tips: 指令搜索
+# > Site Url SearchTitle
+^https:\/\/duckduckgo.com\/\?q=site(\+|%20)([^&]+).+ https://www.google.com/search?q=site\:\+$1\+$2 302
+
+# > intext 包含文本
+^https:\/\/duckduckgo.com\/\?q=intext\+([^&]+).+ https://www.google.com/search?q=intext\:\+$1 302
+
+# Tips: 快捷访问
+# > Apple 美国官网 --> aus
+^https:\/\/duckduckgo.com\/\?q=aus.+ https://www.icloud.com/ 302
+
+# > Apple 中国官网 --> acn
+^https:\/\/duckduckgo.com\/\?q=acn.+ https://www.icloud.com.cn/ 302
+
+# > Madou
+^https:\/\/duckduckgo.com\/\?q=madou.+ https://madou.club/ 302
+
+# Tips: 快捷切换搜索方式
+# > 必应搜索 --> bing
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+
+# > 百度搜索 --> bd
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+
+# 无指令: 谷歌
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = %APPEND% duckduckgo.com

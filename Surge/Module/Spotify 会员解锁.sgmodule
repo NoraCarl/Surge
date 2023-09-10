@@ -1,0 +1,7 @@
+#!name=Spotify 会员解锁
+#!desc=Spotify 会员解锁@Author KeySauce
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com
+
+[Script]
+spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/app2smile/rules@master/js/spotify-proto.js,script-update-interval=0
