@@ -1,6 +1,7 @@
 #!name = 自用规则
 #!desc = 自用规则 @Author KeySacue
 
+[Rule]
 # > 流媒体 for Emby or Jellyfin
 DOMAIN-KEYWORD,superdan,Yahoo
 DOMAIN-KEYWORD,lemonyue,Direct
