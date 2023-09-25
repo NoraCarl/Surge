@@ -2,16 +2,16 @@
 #!desc = 自用规则 @Author KeySacue
 
 [Rule]
-# > 流媒体 for Emby or Jellyfin
+# > Emby or Jellyfin
 DOMAIN-KEYWORD,superdan,Yahoo
 DOMAIN-KEYWORD,lemonyue,Direct
 DOMAIN-KEYWORD,slky,Direct
 DOMAIN-SUFFIX,mulgore.net,Yahoo
-# > Byd > Direct
+# > Byd
 # --- Tips --- >>> 比亚迪企业微信直连访问
 DOMAIN-KEYWORD,fdbatt,Direct
 DOMAIN-KEYWORD,byd,Direct
-# > Wechat or qq > Direct
+# > Weixin or qq
 # --- Tips --- >>> 微信和QQ直连访问
 DOMAIN-SUFFIX,weixin.qq.com,Direct
 DOMAIN-KEYWORD,wechat,Direct
@@ -27,19 +27,20 @@ DOMAIN-KEYWORD,openai,ChatGpt
 # --- Tips --- >>> 苹果商店下载
 DOMAIN,iosapps.itunes.apple.com,Apple
 DOMAIN,gateway.icloud.com.cn,Apple
-# > 贩卖机
-# --- Tips --- >>> 融懋物联
-DOMAIN-SUFFIX,rongmaowl.com,Direct
 # > Games bar
 # --- Tips --- >>> 部落冲突(国内版)
 DOMAIN-SUFFIX,clashofclans.cn,Direct
-# > 银行金融
+# > 智能平台
+# --- Tips --- >>> 华为智慧生活
+DOMAIN-SUFFIX,music-pics-drcn.dbankcdn.cn,Direct
+# > Bank
 # --- Tips --- >>> 中国银行
 DOMAIN-SUFFIX,boc.cn,Direct
 # --- Tips --- >>> 招商银行
 DOMAIN-SUFFIX,cmbchina.com,Direct
 # --- Tips --- >>> 数字人民币
 DOMAIN-SUFFIX,pbcdci.cn,Direct
-# --- Tips --- >>> 收付款合集
+# --- Tips --- >>> 扫码付款
+DOMAIN-SUFFIX,rongmaowl.com,Direct
 DOMAIN-SUFFIX,gov.cn,Direct
 IP-CIDR6,2408:8756:3AF0:3009::19/128,Direct
