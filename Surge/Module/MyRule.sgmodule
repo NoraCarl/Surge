@@ -32,7 +32,7 @@ DOMAIN,gateway.icloud.com.cn,Apple
 DOMAIN-SUFFIX,clashofclans.cn,Direct
 # > 智能平台
 # --- Tips --- >>> 华为智慧生活
-DOMAIN-SUFFIX,music-pics-drcn.dbankcdn.cn,Direct
+DOMAIN-KEYWORD,dbankcdn,Direct
 # > Bank
 # --- Tips --- >>> 中国银行
 DOMAIN-SUFFIX,boc.cn,Direct
