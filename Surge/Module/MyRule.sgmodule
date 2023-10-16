@@ -45,4 +45,6 @@ DOMAIN-SUFFIX,pbcdci.cn,Direct
 DOMAIN-SUFFIX,rongmaowl.com,Direct
 DOMAIN-SUFFIX,gov.cn,Direct
 IP-CIDR6,2408:8756:3AF0:3009::19/128,Direct
+# > MyUrl
+DOMAIN-SUFFIX,mynas4321.top,Direct
 
