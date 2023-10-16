@@ -33,7 +33,7 @@ DOMAIN-SUFFIX,clashofclans.cn,Direct
 # > 智能平台
 # --- Tips --- >>> 华为智慧生活
 DOMAIN-KEYWORD,dbankcdn,Direct
-DOMAIN-KEYWORD,hicloud,
+DOMAIN-KEYWORD,hicloud,Direct
 # > Bank
 # --- Tips --- >>> 中国银行
 DOMAIN-SUFFIX,boc.cn,Direct
