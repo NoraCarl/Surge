@@ -3,10 +3,10 @@
 
 [Rule]
 # > Emby or Jellyfin
-DOMAIN-KEYWORD,superdan,Yahoo
-DOMAIN-KEYWORD,lemonyue,Direct
-DOMAIN-KEYWORD,slky,Direct
-DOMAIN-SUFFIX,mulgore.net,Yahoo
+#DOMAIN-KEYWORD,superdan,Yahoo
+#DOMAIN-KEYWORD,lemonyue,Direct
+#DOMAIN-KEYWORD,slky,Direct
+#DOMAIN-SUFFIX,mulgore.net,Yahoo
 # > Byd
 # --- Tips --- >>> 比亚迪企业微信直连访问
 DOMAIN-KEYWORD,fdbatt,Direct
@@ -20,13 +20,13 @@ DOMAIN-KEYWORD,weixin,Direct
 DOMAIN-KEYWORD,qq,Direct
 # ChatGpt
 # --- Tips --- >>> ChatGpt访问地区分流
-DOMAIN-SUFFIX,ai.com,ChatGpt
-DOMAIN-SUFFIX,openai.com,ChatGpt
-DOMAIN-KEYWORD,openai,ChatGpt
+#DOMAIN-SUFFIX,ai.com,ChatGpt
+#DOMAIN-SUFFIX,openai.com,ChatGpt
+#DOMAIN-KEYWORD,openai,ChatGpt
 # > Apple
 # --- Tips --- >>> 苹果商店下载
-DOMAIN,iosapps.itunes.apple.com,Apple
-DOMAIN,gateway.icloud.com.cn,Apple
+#DOMAIN,iosapps.itunes.apple.com,Apple
+#DOMAIN,gateway.icloud.com.cn,Apple
 # > Games bar
 # --- Tips --- >>> 部落冲突(国内版)
 DOMAIN-SUFFIX,clashofclans.cn,Direct
