@@ -1,0 +1,18 @@
+# > Games bar
+# --- Tips --- >>> 部落冲突(国内版)
+DOMAIN-SUFFIX,clashofclans.cn
+# > 智能平台
+# --- Tips --- >>> 华为智慧生活
+DOMAIN-KEYWORD,dbankcdn
+DOMAIN-KEYWORD,hicloud
+# > Bank
+# --- Tips --- >>> 中国银行
+DOMAIN-SUFFIX,boc.cn
+# --- Tips --- >>> 招商银行
+DOMAIN-SUFFIX,cmbchina.com
+# --- Tips --- >>> 数字人民币
+DOMAIN-SUFFIX,pbcdci.cn
+# --- Tips --- >>> 扫码付款
+DOMAIN-SUFFIX,rongmaowl.com
+DOMAIN-SUFFIX,gov.cn
+IP-CIDR6,2408:8756:3AF0:3009::19/128,no-resolve
