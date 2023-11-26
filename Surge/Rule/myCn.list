@@ -10,6 +10,9 @@ DOMAIN-KEYWORD,dbankcdn
 DOMAIN-KEYWORD,hicloud
 # AmyTelecom
 DOMAIN-KEYWORD,gylcxo.xyz
+# Apple
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,store.apple.com
 # > Bank
 # --- Tips --- >>> 中国银行
 DOMAIN-SUFFIX,boc.cn
