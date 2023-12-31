@@ -15,11 +15,12 @@ USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
 # Huawei
-DOMAIN-KEYWORD,dbankcdn,Direct
-DOMAIN-KEYWORD,hicloud,Direct
+DOMAIN-KEYWORD,dbankcdn
+DOMAIN-KEYWORD,hicloud
 # Byd
-DOMAIN-KEYWORD,fdbatt,Direct
-DOMAIN-KEYWORD,byd,Direct
+DOMAIN-KEYWORD,fdbatt
+DOMAIN-KEYWORD,byd
 # Apple
-DOMAIN-SUFFIX,ls.apple.com,Direct
-DOMAIN-SUFFIX,store.apple.com,Direct
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,store.apple.com
+DOMAIN,apps.apple.com
