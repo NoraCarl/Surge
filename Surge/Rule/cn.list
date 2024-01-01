@@ -27,3 +27,6 @@ DOMAIN,apps.apple.com
 # Jd
 DOMAIN-KEYWORD,jd
 DOMAIN-KEYWORD,360buyimg
+DOMAIN-KEYWORD,300hu
+# Todesk
+USER-AGENT,Todesk*
