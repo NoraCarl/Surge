@@ -24,10 +24,3 @@ DOMAIN-KEYWORD,byd
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,store.apple.com
 DOMAIN,apps.apple.com
-# Jd
-DOMAIN-KEYWORD,jd
-DOMAIN-KEYWORD,360buyimg
-DOMAIN-KEYWORD,300hu
-# Todesk
-DOMAIN-KEYWORD,todesk
-USER-AGENT,ToDesk*
