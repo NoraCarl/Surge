@@ -27,3 +27,10 @@ IP-ASN,59930,no-resolve
 IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 IP-CIDR,5.28.192.0/18,no-resolve
+# bili
+DOMAIN-SUFFIX,bili
+DOMAIN-SUFFIX,bilibili
+USER-AGENT,*bili*
+USER-AGENT,Bilibili*
+USER-AGENT,bili*
+USER-AGENT,bili-inter*
