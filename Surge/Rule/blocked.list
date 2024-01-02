@@ -30,6 +30,7 @@ IP-CIDR,5.28.192.0/18,no-resolve
 # bili
 DOMAIN-SUFFIX,bili
 DOMAIN-SUFFIX,bilibili
+DOMAIN-SUFFIX,biliapi
 USER-AGENT,*bili*
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
