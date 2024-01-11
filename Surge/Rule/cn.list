@@ -24,3 +24,5 @@ DOMAIN-KEYWORD,byd
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,store.apple.com
 DOMAIN,apps.apple.com
+# substore
+DOMAIN-SUFFIX,sub.store
