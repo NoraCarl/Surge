@@ -131,3 +131,7 @@ DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,rockstargames.com
 DOMAIN-SUFFIX,rsg.sc
 DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
+
+# 雷霆战争
+DOMAIN-SUFFIX,warthunder.com
+DOMAIN-SUFFIX,gaijin.net
