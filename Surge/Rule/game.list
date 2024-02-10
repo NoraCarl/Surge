@@ -131,10 +131,3 @@ DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,rockstargames.com
 DOMAIN-SUFFIX,rsg.sc
 DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
-
-# 雷霆战争
-DOMAIN-KEYWORD,warthunder
-DOMAIN-KEYWORD,gaijin
-DOMAIN-KEYWORD,akamaihd
-IP-CIDR,23.109.114.36/24,no-resolve
-IP-CIDR,3.248.82.146/24,no-resolve
