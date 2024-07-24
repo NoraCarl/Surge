@@ -21,3 +21,14 @@ DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,githubusercontent.com
+
+# TecarEmby
+DOMAIN-KEYWORD,carlos
+DOMAIN-SUFFIX,emby.carlos.trade
+# Superdan
+DOMAIN-KEYWORD,superdan
+DOMAIN-SUFFIX,emby.superdan.cc
+# Misakaf
+DOMAIN-KEYWORD,misakaf
+DOMAIN-SUFFIX,emby1.misakaf.org
+DOMAIN-SUFFIX,emby2.misakaf.org
